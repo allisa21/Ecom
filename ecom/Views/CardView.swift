@@ -15,6 +15,7 @@ struct CardView: View {
                 ForEach(cartManager.products, id: \.id) { product in
                     CartProductView(product: product)
                 }
+            
                 HStack{
                     Text("Your total is ")
                     
